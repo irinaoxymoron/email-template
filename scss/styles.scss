@@ -4,57 +4,65 @@
   background: transparent !important;
 }
 
-.custom-pb {
-  padding-bottom: 10px !important;
+.no-padding {
+  padding: 0 !important; 
 }
 
 .tiny-text {
-  font-size: 12px;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
+  font-family: $font;
+  font-size: 13px;
+  color: $violet;
 }
 
 .basic-link {
-  text-decoration: underline;
-  color: #000;
+  font-family: $font;
+  text-decoration: none;
+  color: $alert-color;
 }
 
 .main-img {
   width: 580px;
 }
 
-.main-sub-heading {
-  color: $grey;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 20px;
+.services-img {
+  width: 540px;
 }
 
-.main-heading {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 22px;
+.main-body-title {
+  font-family: $font;
+  color: $violet;
+  font-size: 17px;
+  line-height: (22/16);
 }
 
 .main-body-p {
+  font-family: $font;
+  color: $violet;
+  font-size: 15px;
+  line-height: (16/14);
+}
+
+.grey-body-p {
+  font-family: $font;
   color: $grey;
-  line-height: (22/14);
+  font-size: 15px;
+  line-height: (16/14);
 }
 
-.decorative-line {
-  background: $grey;
-  height: 2px;
+.footer {
+  background: $dark-gray !important;
 }
 
-.item-name {
-  text-transform: uppercase;
-  color: $accent;
-}
-
-.item-price {
+.main-body-footer {
   color: $grey;
+  font-size: 13px;
+  line-height: (13/13);
+}
+
+.footer-link {
+  font-family: $font;
+  text-decoration: none;
+  color: #2baadf;
 }
 
 table.button {

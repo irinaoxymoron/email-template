@@ -5,10 +5,6 @@ var gulp = require('gulp'),
     inlinesource = require('gulp-inline-source'),
     browserSync = require('browser-sync');
 
-global.$ = {
-    browserSync: require('browser-sync').create(),
-};
-
 //STYLES
 gulp.task('styles', function () {
   return gulp.src('./scss/*.scss')
@@ -31,6 +27,9 @@ gulp.task('inky', ['styles'], function() {
 //WATCH
 gulp.task('default', function() {
     gulp.watch(['./scss/*.scss', './templates/**/*.html'],['inky']);
+});
+
+gulp.task('watch', function() {
     gulp.watch('**/*.*').on('change', function () {
         browserSync.reload();
     });

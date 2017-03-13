@@ -68,10 +68,10 @@ table, tr, td {
 
 html {
   min-height: 100%;
-  background: #FBF18E; }
+  background: #f4f4f4; }
 
 table.body {
-  background: #FBF18E;
+  background: #f4f4f4;
   height: 100%;
   width: 100%; }
 
@@ -841,21 +841,21 @@ p {
     Margin-bottom: 8px;
     font-weight: normal;
     line-height: 1.4;
-    color: #8a8a8a; }
+    color: #eaeaea; }
 
 small {
   font-size: 80%;
   color: #cacaca; }
 
 a {
-  color: #F61067;
+  color: #442A6B;
   text-decoration: none; }
   a:hover {
-    color: #cb0852; }
+    color: #2d1c46; }
   a:active {
-    color: #cb0852; }
+    color: #2d1c46; }
   a:visited {
-    color: #F61067; }
+    color: #442A6B; }
 
 h1 a,
 h1 a:visited,
@@ -869,16 +869,16 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #F61067; }
+  color: #442A6B; }
 
 pre {
-  background: #f3f3f3;
+  background: #f4f4f4;
   margin: 30px 0;
   Margin: 30px 0; }
   pre code {
     color: #cacaca; }
     pre code span.callout {
-      color: #8a8a8a;
+      color: #eaeaea;
       font-weight: bold; }
     pre code span.callout-strong {
       color: #ff6908;
@@ -908,24 +908,24 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #F61067;
-    background: transparent;
-    border: 2px solid #F61067; }
+    color: #ffffff;
+    background: #442A6B;
+    border: 1px solid #442A6B; }
     table.button table td.radius {
       border-radius: 0; }
     table.button table td.rounded {
       border-radius: 500px; }
     table.button table td a {
-      font-family: Arial, sans-serif;
+      font-family: "Roboto", Roboto, Arial, sans-serif;
       font-size: 16px;
       font-weight: normal;
-      color: #F61067;
+      color: #ffffff;
       text-decoration: none;
       display: inline-block;
-      padding: 12px 35px 12px 35px;
-      border: 0px solid transparent;
+      padding: 10px 25px 10px 25px;
+      border: 0px solid #442A6B;
       border-radius: 0;
-      text-transform: uppercase; }
+      text-transform: none; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
@@ -939,7 +939,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #F61067; }
+  color: #ffffff; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -974,38 +974,38 @@ table.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: transparent;
-  color: #F61067; }
+  background: #2d1c46;
+  color: #ffffff; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0px solid transparent; }
+  border: 0px solid #2d1c46; }
 
 table.button.secondary table td {
   background: #777777;
-  color: #F61067;
+  color: #ffffff;
   border: 2px solid #777777; }
 
 table.button.secondary table a {
-  color: #F61067;
+  color: #ffffff;
   border: 0px solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #F61067; }
+  color: #ffffff; }
 
 table.button.secondary:hover table a {
   border: 0px solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #F61067; }
+  color: #ffffff; }
 
 table.button.secondary:active table td a {
-  color: #F61067; }
+  color: #ffffff; }
 
 table.button.secondary table td a:visited {
-  color: #F61067; }
+  color: #ffffff; }
 
 table.button.success table td {
   background: #3adb76;
@@ -1021,17 +1021,17 @@ table.button.success:hover table a {
   border: 0px solid #23bf5d; }
 
 table.button.alert table td {
-  background: #ec5840;
-  border: 2px solid #ec5840; }
+  background: #b0005d;
+  border: 2px solid #b0005d; }
 
 table.button.alert table a {
-  border: 0px solid #ec5840; }
+  border: 0px solid #b0005d; }
 
 table.button.alert:hover table td {
-  background: #e23317; }
+  background: #7d0042; }
 
 table.button.alert:hover table a {
-  border: 0px solid #e23317; }
+  border: 0px solid #7d0042; }
 
 table.callout {
   margin-bottom: 16px;
@@ -1043,7 +1043,7 @@ th.callout-inner {
   padding: 10px;
   background: #ffffff; }
   th.callout-inner.primary {
-    background: #fedbe8;
+    background: #e2d8f0;
     border: 1px solid #444444;
     color: #000000; }
   th.callout-inner.secondary {
@@ -1059,8 +1059,8 @@ th.callout-inner {
     border: 1px solid #996800;
     color: #ffffff; }
   th.callout-inner.alert {
-    background: #fce6e2;
-    border: 1px solid #b42912;
+    background: #ffcde7;
+    border: 1px solid #4a0027;
     color: #ffffff; }
 
 .thumbnail {
@@ -1073,7 +1073,7 @@ th.callout-inner {
   border-radius: 3px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(246, 16, 103, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(68, 42, 107, 0.5); }
 
 table.menu {
   width: 580px; }
@@ -1083,7 +1083,7 @@ table.menu {
     padding-right: 10px; }
     table.menu td.menu-item a,
     table.menu th.menu-item a {
-      color: #F61067; }
+      color: #442A6B; }
 
 table.menu.vertical td.menu-item,
 table.menu.vertical th.menu-item {
@@ -1385,51 +1385,59 @@ body.outlook p {
 .no-bg {
   background: transparent !important; }
 
-.custom-pb {
-  padding-bottom: 10px !important; }
+.no-padding {
+  padding: 0 !important; }
 
 .tiny-text {
-  font-size: 12px; }
-
-.text-uppercase {
-  text-transform: uppercase; }
+  font-family: "Roboto", Roboto, Arial, sans-serif;
+  font-size: 13px;
+  color: #442A6B; }
 
 .basic-link {
-  text-decoration: underline;
-  color: #000; }
+  font-family: "Roboto", Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: #b0005d; }
 
 .main-img {
   width: 580px; }
 
-.main-sub-heading {
-  color: #666666;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 20px; }
+.services-img {
+  width: 540px; }
 
-.main-heading {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 22px; }
+.main-body-title {
+  font-family: "Roboto", Roboto, Arial, sans-serif;
+  color: #442A6B;
+  font-size: 17px;
+  line-height: 1.375; }
 
 .main-body-p {
+  font-family: "Roboto", Roboto, Arial, sans-serif;
+  color: #442A6B;
+  font-size: 15px;
+  line-height: 1.14286; }
+
+.grey-body-p {
+  font-family: "Roboto", Roboto, Arial, sans-serif;
   color: #666666;
-  line-height: 1.57143; }
+  font-size: 15px;
+  line-height: 1.14286; }
 
-.decorative-line {
-  background: #666666;
-  height: 2px; }
+.footer {
+  background: #eaeaea !important; }
 
-.item-name {
-  text-transform: uppercase;
-  color: #F61067; }
+.main-body-footer {
+  color: #666666;
+  font-size: 13px;
+  line-height: 1; }
 
-.item-price {
-  color: #666666; }
+.footer-link {
+  font-family: "Roboto", Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: #2baadf; }
 
 table.button {
   margin-bottom: 0; }
   table.button table td {
-    padding: 12px 35px 12px 35px; }
+    padding: 10px 25px 10px 25px; }
     table.button table td a {
       padding: 0px; }
