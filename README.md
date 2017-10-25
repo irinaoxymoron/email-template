@@ -1,4 +1,6 @@
-# email-yet
+# email-template
 
-¯\_(ツ)_/¯
+* Gulp, Sass
+* Foundation for Email
+* Inky
 
