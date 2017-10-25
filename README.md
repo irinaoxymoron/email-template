@@ -1,6 +1,6 @@
 # email-template
 
 * Gulp, Sass
-* Foundation for Email
-* Inky
-
+* Foundation for Emails (Sass Version)
+* Inky HTML
+* BrowserSync
