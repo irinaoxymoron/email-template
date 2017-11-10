@@ -4,14 +4,21 @@
   background: transparent !important;
 }
 
-.no-padding {
-  padding: 0 !important; 
+.custom-padding {
+  padding-bottom: 10px !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 .tiny-text {
-  font-family: $font;
-  font-size: 13px;
-  color: $violet;
+  font-size: 12px;
+}
+
+.decorative-line {
+  background: $grey;
+  height: 2px;
 }
 
 .basic-link {
@@ -22,14 +29,11 @@
 
 .logo-img {
   width: 80px;
+  max-width: 80px;
 }
 
 .main-img {
   width: 580px;
-}
-
-.services-img {
-  width: 540px;
 }
 
 .main-sub-heading {
@@ -46,33 +50,9 @@
 }
 
 .main-body-p {
-  font-family: $font;
-  color: $violet;
+  color: $grey;
   font-size: 16px;
-  line-height: (16/14);
-}
-
-.grey-body-p {
-  font-family: $font;
-  color: $grey;
-  font-size: 15px;
-  line-height: (16/14);
-}
-
-.footer {
-  background: $dark-gray !important;
-}
-
-.main-body-footer {
-  color: $grey;
-  font-size: 13px;
-  line-height: (13/13);
-}
-
-.footer-link {
-  font-family: $font;
-  text-decoration: none;
-  color: #2baadf;
+  line-height: (22/14);
 }
 
 table.button {
@@ -81,8 +61,17 @@ table.button {
     td {
       padding: map-get($button-padding, default);
       a {
-        padding: 0px;
+        padding: 0;
       }
     }
   }
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.item-price {
+  color: $grey;
 }

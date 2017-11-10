@@ -67,7 +67,7 @@ table.button {
       text-align: left;
       color: $button-color;
       background: $button-background;
-      border: 1px solid $button-background;
+      border: 2px solid $accent;
 
       &.radius {
         border-radius: $button-radius;
@@ -85,9 +85,9 @@ table.button {
         text-decoration: none;
         display: inline-block;
         padding: map-get($button-padding, default);
-        border: 0px solid $button-background;
+        border: 0 solid $button-background;
         border-radius: $button-radius;
-        text-transform: none;
+        text-transform: uppercase;
       }
     }
   }

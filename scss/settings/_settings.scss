@@ -104,7 +104,7 @@ $font: Arial, Helvetica, sans-serif;
 $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
-  default: 10px 25px 10px 25px,
+  default: 10px 35px 10px 35px,
   large: 10px 20px 10px 20px,
 );
 $button-font-size: (
@@ -113,12 +113,12 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $white;
+$button-color: $accent;
 $button-color-alt: $medium-gray;
 $button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $violet;
-$button-border: 1px solid $violet;
+$button-background: transparent;
+$button-border: 1px solid $accent;
 $button-radius: 0;
 $button-rounded: $global-rounded;
 

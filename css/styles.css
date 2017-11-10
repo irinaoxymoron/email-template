@@ -908,9 +908,9 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #ffffff;
-    background: #442A6B;
-    border: 1px solid #442A6B; }
+    color: #F61067;
+    background: transparent;
+    border: 2px solid #F61067; }
     table.button table td.radius {
       border-radius: 0; }
     table.button table td.rounded {
@@ -919,13 +919,13 @@ table.button {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
       font-weight: normal;
-      color: #ffffff;
+      color: #F61067;
       text-decoration: none;
       display: inline-block;
-      padding: 10px 25px 10px 25px;
-      border: 0px solid #442A6B;
+      padding: 10px 35px 10px 35px;
+      border: 0 solid transparent;
       border-radius: 0;
-      text-transform: none; }
+      text-transform: uppercase; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
@@ -939,7 +939,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #ffffff; }
+  color: #F61067; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -974,38 +974,38 @@ table.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #2d1c46;
-  color: #ffffff; }
+  background: transparent;
+  color: #F61067; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0px solid #2d1c46; }
+  border: 0px solid transparent; }
 
 table.button.secondary table td {
   background: #777777;
-  color: #ffffff;
+  color: #F61067;
   border: 2px solid #777777; }
 
 table.button.secondary table a {
-  color: #ffffff;
+  color: #F61067;
   border: 0px solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #ffffff; }
+  color: #F61067; }
 
 table.button.secondary:hover table a {
   border: 0px solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #ffffff; }
+  color: #F61067; }
 
 table.button.secondary:active table td a {
-  color: #ffffff; }
+  color: #F61067; }
 
 table.button.secondary table td a:visited {
-  color: #ffffff; }
+  color: #F61067; }
 
 table.button.success table td {
   background: #3adb76;
@@ -1385,13 +1385,18 @@ body.outlook p {
 .no-bg {
   background: transparent !important; }
 
-.no-padding {
-  padding: 0 !important; }
+.custom-padding {
+  padding-bottom: 10px !important; }
+
+.text-uppercase {
+  text-transform: uppercase; }
 
 .tiny-text {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #442A6B; }
+  font-size: 12px; }
+
+.decorative-line {
+  background: #666666;
+  height: 2px; }
 
 .basic-link {
   font-family: Arial, Helvetica, sans-serif;
@@ -1399,13 +1404,11 @@ body.outlook p {
   color: #000000; }
 
 .logo-img {
-  width: 80px; }
+  width: 80px;
+  max-width: 80px; }
 
 .main-img {
   width: 580px; }
-
-.services-img {
-  width: 540px; }
 
 .main-sub-heading {
   color: #666666;
@@ -1419,33 +1422,20 @@ body.outlook p {
   margin: 0; }
 
 .main-body-p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #442A6B;
+  color: #666666;
   font-size: 16px;
-  line-height: 1.14286; }
-
-.grey-body-p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
-  font-size: 15px;
-  line-height: 1.14286; }
-
-.footer {
-  background: #eaeaea !important; }
-
-.main-body-footer {
-  color: #666666;
-  font-size: 13px;
-  line-height: 1; }
-
-.footer-link {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  color: #2baadf; }
+  line-height: 1.57143; }
 
 table.button {
   margin-bottom: 0; }
   table.button table td {
-    padding: 10px 25px 10px 25px; }
+    padding: 10px 35px 10px 35px; }
     table.button table td a {
-      padding: 0px; }
+      padding: 0; }
+
+.item-name {
+  text-transform: uppercase;
+  color: #F61067; }
+
+.item-price {
+  color: #666666; }
