@@ -16,8 +16,12 @@
 
 .basic-link {
   font-family: $font;
-  text-decoration: none;
-  color: $alert-color;
+  text-decoration: underline;
+  color: $black;
+}
+
+.logo-img {
+  width: 80px;
 }
 
 .main-img {
@@ -28,17 +32,23 @@
   width: 540px;
 }
 
-.main-body-title {
-  font-family: $font;
-  color: $violet;
-  font-size: 17px;
-  line-height: (22/16);
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 0;
 }
 
 .main-body-p {
   font-family: $font;
   color: $violet;
-  font-size: 15px;
+  font-size: 16px;
   line-height: (16/14);
 }
 

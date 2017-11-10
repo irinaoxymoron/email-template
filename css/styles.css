@@ -916,7 +916,7 @@ table.button {
     table.button table td.rounded {
       border-radius: 500px; }
     table.button table td a {
-      font-family: "Roboto", Roboto, Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
       font-weight: normal;
       color: #ffffff;
@@ -1389,14 +1389,17 @@ body.outlook p {
   padding: 0 !important; }
 
 .tiny-text {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #442A6B; }
 
 .basic-link {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
-  text-decoration: none;
-  color: #b0005d; }
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: #000000; }
+
+.logo-img {
+  width: 80px; }
 
 .main-img {
   width: 580px; }
@@ -1404,20 +1407,25 @@ body.outlook p {
 .services-img {
   width: 540px; }
 
-.main-body-title {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
-  color: #442A6B;
-  font-size: 17px;
-  line-height: 1.375; }
+.main-sub-heading {
+  color: #666666;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px; }
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 0; }
 
 .main-body-p {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #442A6B;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.14286; }
 
 .grey-body-p {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #666666;
   font-size: 15px;
   line-height: 1.14286; }
@@ -1431,7 +1439,7 @@ body.outlook p {
   line-height: 1; }
 
 .footer-link {
-  font-family: "Roboto", Roboto, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #2baadf; }
 
