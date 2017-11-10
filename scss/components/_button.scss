@@ -174,7 +174,7 @@ table.button:visited,
 table.button:active {
   table {
     a {
-      border: 0px solid darken($button-background, 10%);
+      border: 0 solid darken($button-background, 10%);
     }
   }
 }
